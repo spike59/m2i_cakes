@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kreon', serif;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Kreon', serif;
+}
+
+/* commun */
+
+.trait {
+    border-top: 2px solid #3E2C0E;
+    width: 5rem;
+    margin: auto;
+}
+
+/* navbar */
+
+#menu_top {
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+#menu {
+    justify-content: flex-end;
+}
+
+/* section gros titre */
+
+#gros_titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/pexels-photo-132694.jpeg");
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#gros_titre h1 {
+    color: white;
+    background-color: #3e2c0a;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+#gros_titre h2 {
+    color: #3e2c0a;
+    background-color: white;
+    text-align: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* section qui sommes nous */
+
+#nous {
+    text-align: center;
+    padding: 2rem;
+}
+
+.flaticon-map-marker:before, .flaticon-lemon:before, .flaticon-check:before {
+    font-size: 4rem;
+}
+
+/*section scores */
+
+#scores {
+    text-align: center;
+    background-image: url("../images/kitchen-cake-backe-backing.jpg");
+    background-size: cover;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#scores i {
+    font-size: 3rem;
+}
+
+.encart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+}
+
+/* section cartes */
+
+#cartes {
+    text-align: center;
+    padding: 3rem;
+}
+
+.carte {
+    padding: 0.5rem;
+    align-items: center;
+}
+
+#cartes h1 {
+    color: #333333;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#cartes h2 {
+    font-size: 1rem;
+}
+
+.carte div {
+    background-color: rgb(206, 206, 206);
+    display: inline-block;
+    border-radius: 1rem;
+}
+
+#cartes .carte h2 {
+    color: #3E2C0E;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.carte img {
+    /*border:solid 0.5rem rgb(206, 206, 206);*/
+    border-radius: 1rem;
+    padding: 0.3rem;
+}
+
+.carte ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#cakes {
+    background-image: url("../images/pexels-photo-24553.jpg");
+    background-size: cover;
+}
+
+/* les cakes */
+
+#cakes {
+    text-align: center;
+    padding: 3rem;
+}
+
+#cakes h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#cakes h2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.cake {
+    position: relative;
+    /*display: flex;*/
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+.cake h2 {
+    font-weight: bold;
+}
+
+.cake p {
+    font-size: 0.7rem;
+    color: white;
+}
+
+.cake_img {
+    border-radius: 0.5rem;
+    background-color: white;
+    display: inline-block;
+}
+
+.cake img {
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+
+.cake_panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.cake .prix {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    width: 3rem;
+    height: 3rem;
+    background-color: #3E2C0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cake .prix .vignette {
+    border-radius: 50%;
+    color: white;
+}
+
+.cake .fond_bleu {
+    background-color: #3DC8DD;
+}
+
+.cake .fond_vert {
+    background-color: #57D36B;
+}
+
+.bouton_rouge {
+    background-color: red;
+    border-radius: 0.2rem;
+    /*https://css3gen.com/button-generator/*/
+    color: rgb(230, 230, 230);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
+    /*-webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;*/
+    background: rgb(210, 20, 20);
+    background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: linear-gradient(0deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+.bouton_rouge:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /*background-color:rgb(58, 0, 0);*/
+    /*background: rgb(78, 0, 0);*/
+    /*   background: -moz-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -o-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+    background: -ms-linear-gradient(90deg, rgb(210, 20, 20) 30%, rgb(250, 20, 20) 70%);
+*/
+    background: linear-gradient(0deg, rgb(180, 20, 20) 30%, rgb(220, 20, 20) 70%);
+    /*  -webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);*/
+    box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+#reservation h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#reservation div h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+#reservation form h2 {
+    text-align: left;
+    text-transform: none;
+}
+
+#reservation form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+#reservation form input {
+    margin: 1rem;
+    width: 100%;
+}
+
+#reservation h3 {
+    margin-left: 0.5rem;
+}
+
+#infos {
+    padding: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: #3E2C0E;
+    color: white;
+    padding: 2rem;
+}
+
+footer i {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.transition1 {
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    z-index: 1;
+    /*Free Scalloped Edge SVG provided by SVGeez.com - CC 4.0 License - © 2019 Megan Young */
+    /*https://svgeez.com/projects/scalloped-edge-awning-free-svg-background-repeat*/
+    background-color: transparent;
+    fill: rgb(255, 255, 255);
+    background-size: 505px 505px;
+    background-repeat: repeat-x;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500' style='enable-background:new 0 0 500 500'%3E%3Cstyle type='text/css'%3E .st0{fill:rgb(255, 255, 255);} %3C/style%3E%3Cpath class='st0' d='M0,0v9h0.5C0.8,22.3,11.7,33,25,33S49.2,22.3,49.5,9h1C50.8,22.3,61.7,33,75,33S99.2,22.3,99.5,9h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1 c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24s24.2-10.7,24.5-24h1c0.3,13.3,11.2,24,24.5,24 s24.2-10.7,24.5-24h0.5V0H0z'/%3E%3C/svg%3E");
+}
+
+#cakes #scores footer {
+    position: relative;
+}

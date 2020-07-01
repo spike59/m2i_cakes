@@ -1,0 +1,26 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 02/04/2020 07:31
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.woff2") format("woff2"),
+       url("../fonts/Flaticon.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-map-marker:before { content: "\f100"; }
+.flaticon-lemon:before { content: "\f101"; }
+.flaticon-check:before { content: "\f102"; }
